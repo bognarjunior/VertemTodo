@@ -44,6 +44,7 @@ React Navigation: Para navegação entre as telas.
 $ npm install @react-navigation/native
 $ npm install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-get-random-values
 $ npm install @react-navigation/stack
+$ npm install @react-native-async-storage/async-storage
 ```
 Context API: Incluído no React para gerenciamento de estado global.
 (Não é necessário instalar bibliotecas adicionais, pois é nativo do React.)

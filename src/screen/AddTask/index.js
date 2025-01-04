@@ -1,7 +1,9 @@
 import React, { useState, useContext } from 'react';
-import { View, TextInput, Button, StyleSheet } from 'react-native';
+import { View, TextInput } from 'react-native';
 import { TaskContext } from '../../context';
 import { styles } from './styles';
+
+import  Button  from '../../components/button';
 
 export default function AddTask({ navigation }) {
   const [task, setTask] = useState('');

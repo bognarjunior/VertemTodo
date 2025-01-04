@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
-import { View, Text, Button, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity } from 'react-native';
 import { TaskContext } from '../../context';
 import { styles } from './styles';
-
+import  Button  from '../../components/button';
 export default function TaskList({ navigation }) {
   const { tasks, toggleTaskStatus, clearCompletedTasks } = useContext(TaskContext);
-
+ 
   return (
     <View style={styles.container}>
       <FlatList

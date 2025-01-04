@@ -13,7 +13,8 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     padding: 10,
     borderBottomWidth: 1,
-    borderColor: colors.gray_200,
+    borderColor: colors.black,
+    color: colors.black,
   },
   completed: {
     textDecorationLine: 'line-through',
